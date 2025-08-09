@@ -1,3 +1,9 @@
+## 阅读之前：
+- ### 还没有YOLO数据集？
+  - #### 使用[Zero2YoloYard](https://github.com/BlueDarkUP/Zero2YoloYard)轻松且智能的标注数据
+- ### 不会配置TensorFlow环境？
+  - #### 使用[FTC-Easy-TFLITE](https://github.com/BlueDarkUP/FTC-Easy-TFLITE)轻松构建从搭建环境到导出模型的简单流水线
+
 # YOLO 到 TFRecord 转换器 (YOLO to TFRecord Converter)
 
 这是一个功能强大且易于使用的 Python 脚本，用于将 [YOLO (You Only Look Once)](https://github.com/ultralytics/yolov5) 格式的图像标注数据集转换为 **TFRecord** 格式。转换后的数据集将严格遵循 [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) 所要求的标准目录结构，并自动生成配套的 `label_map.pbtxt` 文件，为你省去繁琐的数据预处理步骤。
